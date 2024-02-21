@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+}
+
+.form_submit_button{
+    margin: 10px 0px;
+}
+
+.ttt_row{
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    display: block;
+}
+
+.ttt_middle_row{
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+.ttt_middle_column{
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+
+.ttt_cell{
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.ttt_empty_cell{
+    padding: calc(50% - 9px) calc(50% - 3px);
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+.ttt_empty_cell:hover{
+    background-color: lightgray;
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+}
+
+.form_submit_button{
+    margin: 10px 0px;
+}
+
+.battle_row{
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    display: block;
+}
+
+.battle_cell{
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    align-items: center;
+    border: solid 1px black
+}
+
+.battle_empty_cell{
+    background-color: white;
+    padding: calc(50% - 6px) calc(50% - 3px);
+    cursor: pointer;
+    text-decoration-line: none;
+    border: none;
+}
+
+.battle_empty_cell:hover{
+    background-color: lightgray;
+}
